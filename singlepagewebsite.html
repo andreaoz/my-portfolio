@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+            <!-- This is your page title that appears on the browser window or tab -->
+            <title>Andrea's Website</title>
+            <!--linking css sheet with html file-->
+            <link rel="stylesheet" href="mywebsite.css">
+            <script src="mysitescript.js"></script>
+
+    </head>
+
+    <body>
+        <section id="home">
+                <div class="profile_container">
+                     <header class="profile_name">Andrea </header>
+                     <div class="contact">
+                        <p><img scr="https://w7.pngwing.com/pngs/1023/729/png-transparent-email-address-electronic-mailing-list-logo-internet-email-miscellaneous-angle-triangle.png" width="20px"/>andrea@gmail.com</p>
+                         <p id="phone">+1234567890</p>
+                     </div>
+                </div>
+            
+                <nav class="navbar">
+                    <!-- Button for redirecting to diff sections -->
+                    <a href="#aboutme"><button class="button1">About me</button></a>
+                    <a href="#skills"><button class="button2">Skills</button></a>
+                    <a href="#projects"><button class="button3">Projects</button></a> 
+                    <a href="#recommendations"><button class="button4">Recommendations</button></a>    
+                </nav>
+
+        </section>
+
+
+        <section id="aboutme">
+            <div class="mypic">
+                <img src="https://cdn.pixabay.com/photo/2022/03/06/19/28/business-7052384_1280.png" width="400px"/>
+            </div>
+
+            <div>
+                <h1>
+                    Hi, I'm Andrea! <img src="https://static.vecteezy.com/system/resources/thumbnails/008/854/220/small_2x/3d-waving-hand-gesture-free-png.png" width="50px"/>
+                </h1>
+                <p id="description">
+                    I'm a biomedical engineer that has been training in software development to change careers.<br>I have experience creating websites and app design. 
+                </p>
+            </div>
+
+        </section>
+
+        <section id="skills">
+           <div>
+                <h1>
+                    Skills
+                </h1>
+           </div>
+           <div id="skills_space">
+                <fieldset>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" width="40px"/>
+                    <h2>HTML</h2>
+                    <p>2 years experience</p>
+                </fieldset>
+                
+                <fieldset>
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" width="40px"/>
+                    <h2>CSS</h2>
+                    <p>2 years experience</p>
+                </fieldset>
+
+                <fieldset>
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" width="40px"/>
+                    <h2>Node.js</h2>
+                    <p>2 years experience</p>
+                </fieldset>
+
+                <fieldset>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABoVBMVEX///9ChfT7vATqQzU0qFPpOSnynJf7uQDpNCP3wb7/vQD7uAA3gPQ8gvQ1f/QwffP8wAAopUsjpEhDg/ozqUnpMB3qQDbqPzA0qU3C1fv//vf///wjp1X4/Pnw9f7p8P1ZkvXh6/1hmPXU4fzM59OTtvjj8ud7p/ebu/hOjfWMsfiuyPrJ2vulwfn/+Ob7wypnu3x4wYm60PtErmBclPWs2LaYz6VVtG3s9++/4cf957H803P+6bn+89f94aA4non92YdAi9xBiOY2onI7lqvrTkHrTzH50c/wiYLtaF798fDvbSiPy53I5c9+qffZ7d6z2bxvvYL8ykP8zmH94qT+78w9j8j7wzg9ksE3oH3EtiF8rj82o2vrug47l6pqrESztCw5mpw+jdPfuRajsjP80m2NsDg4noXOtx72vK33pQDyfiL1lhn2sa08lLXve3LtXC3zo52ZqHXxeyTQszeCma6ewubIrlmeoJa50+L85OLub2b2mxdgnNrUsUr5hwCPoKH4ZAarn3bWi0XL08X1dAC6lXD8p4vvsJDkyqSsvKiavsm9AAANl0lEQVR4nO1d+18bxxFHgJAQOh2SAWFhBAjzkMzTmId5FSclgAzmZeqmiZvWdps2KXHc1Gmr1k3duG7iv7p6crO7s3c3t6eT289+P/7Jt7rPfZnvzszOjE5tbRoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaTcHw8cnK6cLq6uriyt3JYe/3yY7dnp7K5XIPpmdnsv49niqGjxY7U6lksjPZ2ZlMplJLh8febjReyJtm3KggnjDjdwrj/j6oVywvpcrUIJKphZv0+1zPJeIhiDLN0dv+Py8VNztTnSLKHCdp9xnLmUZIgGGOttiOw4sYvxrHZcqNpjF+NY4TzXp4N5hcSkoIlpFadH2fbC6B86sgkWudz5nstCFYNuOqS6+azUsMWDdjfqS5PKQ4linUoujqPg4EyxRDraG45sCvQnHBzY1GHQhWrNgSodrtwau9uOJ8nwc2e7CB+FTz+Qg4dNJojaJjYLxt8gYz4vE4b9bErSA4MbjJE0xW4n6KD/6dSw7eJstTMXKF6dmJqTwXPozAt+ICSyW1unI8uTY5eXeRywCcdFpg8ph4aLbOJDs+xRjXCFqnRwyP5NLdqyvDKxzFIbv7jDCb0JyAHmWc8bHmWLO44FhgSLCxnc0D7HMbxoQJLgvN5gBF44HvJOwwCe2UOuSurq1Cikt2N4ImNEVvcgdQjAcaMVYAheSpcHmSsbDNWeo6YBgviNfHAEPews3FkoO3hJ42yZsYYAruNMxG05aKA/U1w4BA6i62ArpaecCAoSI+iy4Bf4K8T0/vBtBE+DaDOatcptdBQJD4yoJFMciQeNd6fpkGgYyT0pD4wNlCYKeaAR6GgaNJHeFLFqFMJbfJ5kEwQPxMdY1lZjNAV3MIGEokCL1tSlLRmAEijU/ja8BWTeA7tSkABkqt4UuWoTeVyLQAo53k8bPOS5qBQxcMXQR94EnlKrXCRZDni2VnlR4ymRu6CIo0ZOTw+4xZixLX/Xp+Z5xYEpSlnUziisu0wJyPEvh9QMgP0pfCeIgXKtbYswdasAkxkFgIlDjiAZ4uYE7TiW7EE/YIlUS86Th7uDfuYPeBSg4yp4F5KR7yuaM+puUJtoaPZ9bgiBjsGRj6kSTiRlb4Ygai5XyIh6hC+FcItlTDHPHFzPquUKUSg8q4UGITa4a34JpEsId8aCOhtn0k1hlFmU7HeYYhI8R6ywKzUwPdhly4S3YyNcNlrM4oeFO0DmwWrPPD9TxbpAowo6ngiCs3nR7X7bh2sooWUnmZjvFl0joPY+rW+NjI2MzEaIL9EwRdiRrmCCRTS6crJ8uHC2g7scLwhL3BrCjSulQTZWrxhFATDlik7OmoTjIp1oMBOG8qelJ7yM4ezcORq6I+BCNTiUjlCFqkrjpPLNh6jlSkEhijQRNsazt10XqCYIuOzh01FvEW9LrFqO4EINMxoglDiRYMLAxTGUKZzrroGTLw05NmMratFAsLVJmC7kaOKFJZBYDKbX3nrDdSRk/vxsM5x+UnZCNeJXcjVJH6cfjNbJ5HeiLtdZRZPtp2IKkg01tUkRrK/Ia25y16DZbtG/Ycyd70SqbBi3RznqdX57ht9ym6TOsfzJLD/Ywav8x5D8avgp75Lfnn6EG/Xh8nizSkRnAON2DDjg/ln1xwJsWgIdOARbplQ69K8Twj+yh6ELRDrRoQsEidCJYp9l5IPjtJdDX16Zrb5HCv0t/OOBKs7MYdyadXiQxrdTmySJVmFM7s9qBlxjM8bniSKT8j5AhTpZq/LQTBctiPiKwj7ZvYx9fI8eKYbfy6g4JItyIcj/md9c3N7fN2kWPPBpauepHpFFWkKpXgc4ZJZKMR/DKbjwSOESw0kmXaSRepSstpq0fKYGhbzAKQ0DhJlylZpKZ3gm0bwFCRc06FF4jDEUMjWaYrDwIUaQYSPBMuX2AOhw+NQoPCCUvXiCZUGYXahBSQcLCDRJLIDrvmmMhw8CdUhirjbECkEewQMSQSFEPjkjMriL6fBelJH4EHRxc8xNKBSIQJjUSZDhIJKol0Djz1Br4CP1X1bACH4/iVBJYgWaQqX0QA4b4HzVja2uZRhmxgabJIJSMa7hhaFuqRlCvOZVkr2LeHJJlS2xVKjd9Ni2FEcgQU0lbrb3LW+AhFpnSRJlTmEdfB45MZgtBI8KZ9P6eKFB3QcItNZ5Vu2NY3dmqLKDL9gGpCpemEC8BQcoo/syFYpvio+ocRvlsiF+nHVJGaSkOzwJfymUodGWkNrvG59fKqYdcypYtUxZMy8bC9F12x7lgAqIZG1zLtI3tSxekEkNP0rGMLJOGQsWI5NLqV6eCHZE+q2PiFfqQX8aY2nhSacdutN+37KliRssejyLntZVuK56cuGVI9qfoIDSM3PjV1LqQ2EPvFDVci/ZiadauPWzIHwMgZI1RnLwPgimHfV8RtaKg3ftmzQ6R9u8Fx6OLMKVAwRvzEDcVBskh9GKHZ4KuJ59sXc1vrO/MUfi5lOvghVaR+jNDMCQ9bLQhTBFrFYzci/Sn5aKhOsHyKpxlLasRPXNjwXmtGaKQnQBpDFzL9lJyT+jNCk3GRt7hg6CzTvl9SGfo1QiNuRU8UP3NkSPakvs152Te53TL8lZNMWyXSCjKk2Cdh+NiBoQeR+vnF5h0fKDrItI/qSX2a82rgAmkYEhk6yPRTogWVR2h4ZNx1u20Y2su079ctCfcM3B0GbSjayrTvSaDTCTi21JRqL9OWi7SKIfnwlxuGdjIdJItU8m1EVayrmNFOpu+FSKuYEwcU3DN8ZmNEcrhv3hdivYfG2FMpQ7pIVUZonOA9NMpl+v6ItAqbaVMHhnKZkhu/Tf7WtsfQKJXp+yXSKjyGxtigXyJt/jd+h37jhaJMpkvkdkUQr/jwEholMvXQ+A3kjVCeQiMq02CnEyjARqIcjPhbzIjvp0irIIdGVKZ0kZrBvbaMHhoRmQbd+CUCmTK1NSIi0z6iBYN+zeUWqRIX+53AcPBz8jBiwG+5zGyQzPi/JtIqKKFRlOlgoHNeHkEIjYJMBz8PvvHrBe5DY0xZpEpzXt5x4baBI8g0+OmEBkp73RT8/oteLzL1MOflh0iL3V27/VEawgNftrvjyAR98giNHz21UldHfzjdQcbA1z1uKLJTCy2YTijuh8N0djWKHX9wQZFpB9PnvJRFepn2yq/K8b6zUmOPBxVEqvyCj+f9CvwqFD9ydjhQpvTGr5pISwcqBqxRHHBUKpCph2FEpcZvqcODfxE53ndyOL1XDMkjNGoiLab9IFhxOA5KtSrDAU8nHPhDsKJU+9B41Wejz3kpibQr6hPBDufQeMOjSJUav3u8F02nw9Gwl8hfpWgbGhsyFee84mYVwpvK6lCaTthluYSju/tdl5f7B+moN5ID9yNSjg2Z8iM0ifz0+Ejldx2mR/F3DqiM0HQzJkxHn+/VLxQvd72FEJvQWJ8B40ZojDwoEt7GfzxHwYSMm0mn98Cl4r63NGBg4DspxapM2REa7lebslOiGVVEugfdTPigyF699OiEpA6nJlPmG78JoSM4IXynW2U6YR8oMX0gXO72SrHj7yjF2FNepFh5SXjzgMqcF/Qz6ZJ4vctjOicLjRWZsu0KpEKY5RiqNH5LwEbhF8iCojeCHTKlVvpssBKMJ9TcS9sSCiKFGy2NrnjhOSdHc/HY4xtMQiP5xjn3TjMFkQIRhvfRFUWFYxUWGmN9sCEjq58xO1Gp8fvc2obRbnzJrkLWioTG2LMkaN7L6mfMG7GURmhANOwv4kv2lc7+A19yFGNPUyAplY1WzDAMFQhChmkJQ+8bscbxa16pn4EChiwbg29lV5tOaD5DQamxZ6DYLfOSkKHaCE2zVVqlyCo19hR8j0vWtoYv/VKbTgCepn8PX+LD+ZgLjcDTyBLOCd9+zAkYKNyFrlCJFhZFmMTF/gjTUvy5QONN8VdyLi2G6V10hdfMlKM48M1VEhf7E/xBMXSTMT//oDadAI8W/WhA9KuIA5QaA2UoPOSDtyWrznkVQTxHjej1/IRQvEriYi+BTBNIYgrT0sS3agwZTxl+LlzeU64UQ471JC72Z7gRxbMf8+sPhuoIDXMCjvKni6JKyoZQrIfGGFMtNbitOMNcvKdIkEs7o6wV93wqFVsUa6Ex9hemTsMKdZY54Zt/VWbIVqLCHZa7Kal2a1COFYcTmw8xSBiNX1EduRVijobGPZcv2LYDK8R0dHe/u1Qq7b34W9TPPWhRrIRGzohljuadqUJhKmdyVSgfTChWhNPhaH/ln88CtSgOfFNW6gd8KcaogvvP+CsfTOhvVd8dx7LD+YebdyQaeclPt1HhW2fGNcVyaOR1isEXjVZQ9KV9SON4nwn7EoKqwd5CqT94ih994UTR/NaXTVin6LFFoUJx4Lt/2lE04v5ZsILiQdDupszx9b/y0l9CiOf92oNX6GqFUr9/hZvRMF/55EUhSgf9QUt1IP367b1rQjfNMJ+88XELAuw974g2LdBLOIb//fZV/poV6o1rZv7VG+cfCfGKYvf+brQ/Gg4S/a+/f/vySajW5c4/efluS/q2fr9Y7nVfdgWM//zww4/v3r178+PFXPPMp6GhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhofF/iP8CRIH4AlrgguoAAAAASUVORK5CYII=" width="40px"/>
+                    <h2>Google Apps Script</h2>
+                    <p>2 years experience</p>
+                </fieldset>
+
+                <fieldset>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/701px-Python-logo-notext.svg.png" width="40px"/>
+                    <h2>Python</h2>
+                    <p>1 years experience</p>
+                </fieldset>
+
+                <fieldset>
+                    <img src="https://logos-marques.com/wp-content/uploads/2021/03/JavaScript-Logo.png" width="40px"/>
+                    <h2>Javascript</h2>
+                    <p>1 year experience</p>
+                </fieldset>
+
+           </div>
+        </section>
+
+        <section id="projects">
+            <div>
+                 <h1>
+                     Projects
+                 </h1>
+            </div>
+            <div>
+                <div>
+                    <h2>Company Automation System</h2>
+                    <ul>
+                        <li>Developed a custom program for a company using Google Apps Script to automate workflows and improve efficiency.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div>
+                    <h2>Sentiment Analyzer</h2>
+                    <ul>
+                        <li>Designed and developed websites using HTML, CSS and JavaScript to create responsive and user-friendly experiences.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div>
+                    <h2>Educational Platforms</h2>
+                    <ul>
+                        <li>Built websites to support students and teachers, providing interactive tools for learning, resource management, and communication.</li>
+                    </ul>
+                </div>
+                
+
+            </div>
+         </section>
+
+         <section id="recommendations">
+            <div>
+                 <h1>
+                     Recommendations
+                 </h1>
+            </div>
+            <div class="recs">
+                <fieldset>
+                    <p>"Andrea is a skilled programmer with a strong ability to solve complex problems efficiently. Their expertise in software development, Arduino, and IoT makes them a valuable asset to any team."</p>
+                </fieldset>
+                
+                <fieldset>
+                    <p>"Andrea is highly adaptable and eager to learn new technologies. Their ability to break down complex concepts and apply them effectively sets them apart in dynamic environments."</p>
+                </fieldset>
+
+                <fieldset>
+                    <p>"Andrea excels in teamwork and project management, combining technical skills with strong collaboration. They are proactive, detail-oriented, and contribute effectively to any project."</p>
+                </fieldset>
+
+                <!-- Unordered list to display the new recs -->
+                <div class="rec-list" id="recList"></div>
+
+            <div class="newrec">
+                <h2>Leave a Recommendation</h2>
+            
+                <div class="recbut">
+                <!-- Input field to add new rec -->
+                <input type="text" id="name" placeholder="Name (Optional)">
+                <textarea id="recInput" placeholder="Message"></textarea>           
+                      
+                    <div class="submitbut"><!-- Button to add a new rec to the list -->
+                        <button type="button" id="add-rec" class="add-rec" onclick="addRec()">Submit</button>
+
+                    </div>    
+                 </div>
+            </div>
+
+
+         </section>
+
+        <!-- POPUPWINDOW-->
+            <!-- The Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <img src="https://images.vexels.com/media/users/3/155427/isolated/preview/5ce36330bf04510d41aca19e5c43b772-marque-el-icono-de-trazo-de-marca-de-verificacion.png" width="50px"/>
+            <h3>Thanks for leaving a recommendation!</h3>
+            <div class="modal-footer">
+                <button class="accept">Ok</button>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div id="go-home" class="iconbutton">
+            <a href="#home">
+                <img src="https://freepngdesign.com/content/uploads/images/up-arrow-4862.png" width="70px"/>
+            </a>
+        </div>
+
+    </body>
+</html>
